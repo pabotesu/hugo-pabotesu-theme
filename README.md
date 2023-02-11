@@ -11,7 +11,7 @@ $ cd new-site
 $ git clone https://github.com/pabotesu/hugo-pabotesu-theme/ themes/hugo-pabotesu-theme
 
 # テーマの追加(Submodule)
-$ git submodule add -b master https://github.com/pabotesu/hugo-pabotesu-theme/ themes/hugo-pabotesu-theme
+$ git submodule add -b main https://github.com/pabotesu/hugo-pabotesu-theme/ themes/hugo-pabotesu-theme
 
 # サンプル設定ファイルのコピー
 $ cp themes/hugo-pabotesu-theme/example.config.yml config.yml
