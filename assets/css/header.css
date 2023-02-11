@@ -1,0 +1,26 @@
+header {
+  background-color: var(--bg-color);
+  border-bottom: 5px double var(--br-color);
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header > nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.site-logo {
+  font-size: xx-large;
+  font-weight: nomal;
+  white-space: nowrap;
+}
+
+.menu-item * {
+  margin-right: 1.5rem;
+}

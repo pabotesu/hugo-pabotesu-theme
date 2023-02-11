@@ -1,0 +1,10 @@
+<div>
+  <h1>Tags</h1>
+</div>
+<ul class="list-post">
+  {{ range .Pages.ByTitle }}
+  <li class="list-tag">
+    <a href="{{ .Permalink }}">&#035;{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>

@@ -1,0 +1,12 @@
+#menu-button, #theme-button {
+  background-color: var(--bg-color);
+  border: double 5px var(--br-color);
+  border-width: 3px;
+  cursor: pointer;
+  padding: 5px 12px;
+}
+
+#menu-button:hover, #theme-button:hover {
+  filter: invert(100%);
+  transition: 0.5s;
+}

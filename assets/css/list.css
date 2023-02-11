@@ -1,0 +1,26 @@
+.list-post {
+  padding: 0;
+  list-style: square;
+}
+
+.list-item {
+  border-bottom: 3px double rgb(141, 141, 141);
+  margin-bottom: 10px;
+  padding-bottom: 0.5rem;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.list-meta {
+  font-size: small;
+  font-weight: bold;;
+}
+
+.list-meta > * {
+  margin-right: 10px;
+}
+
+.list-tag {
+  display: inline-block;
+  margin: 5px;
+}

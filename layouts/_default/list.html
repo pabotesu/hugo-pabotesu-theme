@@ -1,0 +1,18 @@
+{{ define "title" }}
+  {{ if .IsHome }}
+    {{ .Title }}
+  {{ else }}
+    {{ .Title }} - {{ .Site.Title }}
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+  {{ if eq .IsHome false }}
+    {{ partial "breadcrumb" . }}
+  {{ end }}
+  {{ if eq .Title "Tags" }}
+    {{ partial "list-tags" . }}
+  {{ else }}
+    {{ partial "list-posts" . }}
+  {{ end }}
+{{ end }}
