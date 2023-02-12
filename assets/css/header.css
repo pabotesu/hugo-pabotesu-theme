@@ -1,6 +1,6 @@
 header {
   background-color: var(--bg-color);
-  border-bottom: 5px double var(--br-color);
+  border-bottom: 7px double var(--br-color);
   padding: 30px;
   position: sticky;
   top: 0;
@@ -17,7 +17,7 @@ header > nav {
 
 .site-logo {
   font-size: xx-large;
-  font-weight: nomal;
+  font-weight: bold;
   white-space: nowrap;
 }
 
