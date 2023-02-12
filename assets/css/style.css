@@ -1,22 +1,9 @@
 :root {
-  --a-color: var(--a-l-color);
-  --a-hover-color: var(--a-hover-l-color);
-  --bg-color: var(--bg-l-color);
-  --fg-color: var(--fg-l-color);
-  --br-color: var(--br-l-color);
-
-  /* light mode */
-  --a-l-color: #4271ae;
-  --a-hover-l-color: #3e999f;
-  --bg-l-color: #ffffff;
-  --fg-l-color: #4d4d4c;
-  --br-l-color: #d6d6d6;
-
-  /* dark mode */
-  --a-d-color: #81a2be;
-  --a-hover-d-color: #8abeb7;
-  --bg-d-color: #1d1f21;
-  --fg-d-color: #c5c8c6;
+  --a-color: #4271ae;
+  --a-hover-color: #3e999f;
+  --bg-color: #ffffff;
+  --fg-color: #4d4d4c;
+  --br-color: #d6d6d6;
 }
 
 body {
